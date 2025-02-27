@@ -70,6 +70,7 @@ flutter:
     - assets/icons/ic_top_silver.svg
     - assets/icons/ic_top_bronze.svg
     - assets/icons/ic_star.svg
+    - assets/icons/ic_king.svg
     - assets/icons/ic_search.svg
     - assets/images/banner_1.png
     - assets/images/banner_2.png
@@ -78,6 +79,15 @@ flutter:
     - assets/images/img_monitor.png
     - assets/images/img_big_monitor.png
     - assets/images/img_smart_tv.jpg
+    - assets/images/avt_name01.png
+    - assets/images/avt_name02.png
+    - assets/images/avt_name03.png
+    - assets/images/avt_name04.png
+    - assets/images/avt_name05.png
+    - assets/images/avt_name06.png
+    - assets/images/avt_name07.png
+    - assets/images/avt_name08.png
+    - assets/images/avt_name09.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

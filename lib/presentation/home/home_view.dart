@@ -5,6 +5,7 @@ import 'package:market_app/core/styles.dart';
 import 'package:market_app/presentation/home/components/banner.dart';
 import 'package:market_app/presentation/home/components/product.dart';
 import 'package:market_app/presentation/home/components/search.dart';
+import 'package:market_app/presentation/home/components/user.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
@@ -30,6 +31,7 @@ class _HomeViewState extends State<HomeView> {
               const HomeSearch(),
               const HomeBanner(), 
               const HomeProduct(),
+              const HomeUser(),
             ],
           ),
         ),

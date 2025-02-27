@@ -5,4 +5,5 @@ class Assets {
   static const icTopBronze = 'assets/icons/ic_top_bronze.svg';
   static const icSearch = 'assets/icons/ic_search.svg';
   static const icStar = 'assets/icons/ic_star.svg';
+  static const icKing = 'assets/icons/ic_king.svg';
 }

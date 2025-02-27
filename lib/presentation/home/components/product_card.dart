@@ -8,6 +8,19 @@ import 'package:market_app/data/models/product_model.dart';
 class ProductCard extends StatelessWidget {
   final ProductModel product;
   const ProductCard({super.key, required this.product});
+  
+  String get _getRating {
+    switch (product.ratingTop) {
+      case 1:
+        return Assets.icTopGold;
+      case 2:
+        return Assets.icTopSilver;
+      case 3:
+        return Assets.icTopBronze;
+      default:
+        return '';
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +45,7 @@ class ProductCard extends StatelessWidget {
                 children: [
                   Align(
                     alignment: Alignment(-.9, -.9),
-                    child: SvgPicture.asset(Assets.icTopGold),
+                    child: SvgPicture.asset(_getRating),
                   )
                 ],
               ),
